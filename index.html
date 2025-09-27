@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LA SPORTS</title>
     <link rel="stylesheet" href="design.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <header class="site-header">
@@ -14,26 +15,56 @@
             <div class="logo-mark"><span>LA</span></div>
             <h2 class="logo-text">SPORTS</h2>
           </a>
+          <div class="flex flex-col border-red-500 rounded-xl bg-red-500">
+            <ul class="nav-menu">
+              <div><a href="basketball.html" class="nav-link">Basketball</a></div>
+              <div><a href="volleyball.html" class="nav-link">Volleyball</a></div>
+              <div><a href="frisbee.html" class="nav-link">Frisbee</a></div>
+              <div><a href="football.html" class="nav-link">Football</a></div>
+            </ul>
 
-          <ul class="nav-menu">
-            <li><a href="basketball.html" class="nav-link">Basketball</a></li>
-            <li><a href="volleyball.html" class="nav-link">Volleyball</a></li>
-            <li><a href="frisbee.html" class="nav-link">Frisbee</a></li>
-            <li><a href="football.html" class="nav-link">Football</a></li>
-          </ul>
-
-          <button class="nav-toggle" aria-label="toggle menu">☰</button>
+            <button class="nav-toggle" aria-label="toggle menu">☰</button>
+          </div>
         </nav>
 
-        <div class="hero">
-          <h1>Welcome to LA Sports</h1>
-          <p>Your home for basketball, volleyball, frisbee, and football news & updates.</p>
-          <a href="basketball.html" class="btn">See Latest News</a>
+          <div class="hero">
+            <h1>Welcome to LA Sports</h1>
+            <p>
+              Your home for basketball, volleyball, frisbee, and football news &
+              updates.
+            </p>
+            <a class="btn">Latest News Below</a>
+          </div>
         </div>
-      </div>
+        
     </header>
+    <div style="margin-bottom: 50px;"></div>
+    <section class="cards">
+      <div class="card">
+      <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4975,h_2798,x_87,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images%2FImagnImages%2Fmmsport%2Fsi%2F01k25v0x2fxpdmhrh8tg.jpg" alt="alternatetext">
+      <br>
+        <h3>NBA Finals 2025</h3>
+        <p>The LA Lakers are heading to the finals after a thrilling Game 7 win over the Warriors.</p>
+      </div>
+      <div class="card">
+        <img src="https://od2-image-api.abs-cbn.com/prod/editorImage/1758194466065viber_image_2025-09-18_18-23-18-895.jpg">
+        <br>
+        <h3>Alas Pilipinas Men Volleyball</h3>
+        <p>FIVB Worlds: Heartbreaker as gallant Alas Pilipinas Men fall to higher-ranked Iran</p>
+      </div>
+      <div class="card">
+        <img src="https://images.gmanews.tv/regionaltv2023/content_images/article/2_2025_09_11_14_19_38.jpg">
+        <br>
+        <h3>Philippines Frisbee</h3>
+        <p>Pilipinas Ultimate bags 2 golds at Asia-Oceania showdown</p>
+      </div>
+    </section>
+
 
     <footer class="site-footer">
+      <div style="margin-bottom: 300px;"></div>
+      
+      
       <p>© 2025 LA Sports. All rights reserved.</p>
     </footer>
   </body>
